@@ -1,7 +1,7 @@
 :root {
     --surface-background-1: #FFFFFF;
     --surface-background-2: #E6E2DC;
-    --surface-section: #C8C0B5;
+    --surface-section: rgba(200, 192, 181, 0.12);
     --surface-shade: #EDEDED;
     --border-default: #999999;
     --text-light: #666666;

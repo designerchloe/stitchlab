@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Nav from './Nav.jsx';
+import CanvasContainer from './CanvasContainer.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
         </div>
         <Nav selected="design"/>
       </header>
+      <CanvasContainer/>
     </div>
   )
 }

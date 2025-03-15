@@ -1,1 +1,12 @@
 /* App Layout */
+
+.page-container {
+    padding: 24px;
+    height: 100vh;
+    min-height: 800px;
+    background: linear-gradient(var(--surface-background-1), var(--surface-background-2));
+}
+
+.title-container {
+    width: 60%;
+}

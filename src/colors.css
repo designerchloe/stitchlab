@@ -1,0 +1,11 @@
+:root {
+    --surface-background-1: #FFFFFF;
+    --surface-background-2: #E6E2DC;
+    --surface-section: #C8C0B5;
+    --surface-shade: #EDEDED;
+    --border-default: #999999;
+    --text-light: #666666;
+    --text-black: #000000;
+    --highlight-hover: #F09DF2;
+    --highlight-selected: #FB00FF;
+  }

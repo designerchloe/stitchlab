@@ -8,5 +8,35 @@
 }
 
 .title-container {
-    width: 60%;
+    max-width: 850px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    gap: 16px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+
+    .page-container {
+        padding: 16px;
+    }
+
+    .title-container {
+        width: 100%;
+        padding-top: 44px;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
 }
